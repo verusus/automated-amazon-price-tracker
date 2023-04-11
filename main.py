@@ -2,8 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 import smtplib
 
-my_email = "hamid.business.go@gmail.com"
-password = "bjinhxejfydbenmw"
+my_email = MY_EMAIL_HERE
+password = MY_PASS_HERE
 PRODUCT_URL = "https://www.amazon.com/dp/B00CCYLBZ0/ref=sspa_dk_detail_3?pd_rd_i=B00CCYLBZ0&pd_rd_w=gimGY&content-id" \
               "=amzn1.sym.89ee1d2e-380f-4a05-89e5-d22eb0a17762&pf_rd_p=89ee1d2e-380f-4a05-89e5-d22eb0a17762&pf_rd_r" \
               "=BAY7RN85XGWHA6GV84P0&pd_rd_wg=oUSIX&pd_rd_r=3b0e48c1-a7b2-48a4-a139-f1931f37ecf0&s=home-garden&sp_csd" \
