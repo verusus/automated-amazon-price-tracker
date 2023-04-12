@@ -25,7 +25,7 @@ price_and_shipping = float(soup.select(selector="span.a-size-base.a-color-base")
 # print(price_and_shipping)
 product_name = soup.find(id="productTitle").get_text()
 
-if price_and_shipping < 300:
+if price_and_shipping < LIMIT_PRICE:
 
     with smtplib.SMTP("smtp.gmail.com", port=587) as connection:
         connection.starttls()
